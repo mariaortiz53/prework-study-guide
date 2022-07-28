@@ -10,7 +10,7 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." class="image1" />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
@@ -34,7 +34,7 @@
               <li>Don't forget the quotations</li>
           <li>The alt attribute is used to describe the image</li>
             <li>i.e. "< img src="#" alt="a field of yellow sunflowers" />" </li>
-          <li>The video element however, does need aan opening and a closing</li>
+          <li>The video element however, does need an opening and a closing</li>
             <li>You can add width, src, height, controls</li>
           <li>"< a > < /a >" is used to link other websites</li>
             <li>used "href=" after the "a" and insert the website link after "=" inside quotation marks</li>
@@ -48,19 +48,46 @@
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li><strong>CSS Rule</strong></li>
+            <img src="./assets/css-rule.jpg" class="image2"/>
+              <li><strong>Ruleset Terms:</strong></li>
+                <li><strong>Selector</strong> used to target the element that will be styled</li>
+                <li><strong>Declaration Block</strong>: code in-between the curly braces that contains the CSS declarations</li>
+                <li><strong>Declaration</strong>: name for what is applying a style to a selected element</li>
+                <li><strong>Property</strong> first part of element, signifies what visual characteristic will be modified</li>
+                <li><strong>Value</strong>: second part of declaration that signifies the value of the property</li>
+          <li><strong>Linking CSS and HTML</strong></li>
+            <li>You can use the "< link >" element</li>
+              <li>The "< link >" element must be placed within the head of the HTML file</li>
+              <li>It is a self-closing tag and needs the following attributes</li>
+                <li>href: its like the anchor element, the value must be the address or path to the CSS file</li>
+                <li>rel: describes the relationship between the HTML and CSS files. Because you are linking a stylesheet the value should be set to "stylesheet"</li>
+                  <li>i.e."< link rel="stylesheet" href="./assets/style.css" >"</li>
+          <li>A <strong>Selector</strong> is used to tqarget the specific HTML elements styled by the declaration </li>
+          <li>If HTML needs to be styled uniquely we can give it an ID using the ID attribute</li>
+          <li>USE "ID" AS A LAST RESORT: order of easiest to hardest to change</li>
+            <li>Selector (ie. p, h1, link, title)</li>
+            <li>Class (ie. .destination, .heading-background)</li>
+            <li>ID (ie. #description, #heading-background)</li>
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li><strong>git status:</strong> checks what branch we are currently on</li>
+          <li><strong>git revert</strong> (first 7 characters) is used to revert to previous code replace version of SHA code you want to replace</li>
+          <li><strong>git checkout -b branch-name:</strong> creates a new branch and switches to it</li>
           <li>git commands always start with "git"</li>
           <li>git is only used in your computer GitHub is a cloud-based hosting service</li>
-          <li>.md: used for markdown files</li>
-          <li>git add -A: used to save any work done to the feature</li>
-          <li>git commit -m "text in here of what was fixed": is used to save the commit</li>
+          <li><strong>.md:</strong> used for markdown files</li>
+          <li><strong>git add -A:</strong> used to save any work done to the feature</li>
+          <li><strong>git commit -m "text in here of what was fixed":</strong> is used to save the commit</li>
+          <li><strong>git checkout</strong> is used to switch branches</li>
+          <li>Projects are called repositories(repository), basically a folder for your project</li>
+          <li><strong>Branching:</strong>files in the main folder(repository)</li>
+          <li><strong>git pull origin main:</strong> is used to pull in the base branch</li>
+          <li><strong>"cd bootcamp" + "code.":</strong>type it on the terminal to open VS Code</li>
         </ul>
       </section>
 
