@@ -16,7 +16,7 @@ h2 {
     text-align: center;
 }
 
-img {
+.image1 {
     display: block;
     height: 50px;
     width: 50px;
@@ -33,7 +33,13 @@ p {
     text-align: center;
     font-size: 30px;
   }
-
+.image2 {
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
   .card {
     width: 80%;
     margin: 40px auto;
